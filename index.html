@@ -1,54 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
-    <title>KYHAN WEBSITE</title>
-  </head>
-  <body>
-    <div class="container animate__animated animate__zoomIn">
-      
-<!-- footer -->
-<div class="footer animate__animated animate__bounceInUp
-animate__delay-4s">
-<title>AUDIO/VIDEO  AUTOPLAY</title>
+<html lang="id">
 <head>
-  <Body style="background: url(kyhan.jpbeg); background-size:fixed;"> 
-    <video controls autoplay loop>
-      <source src="background.mp4">
-    </video>
-    <head>
-      <!-- profile picture -->
-      <div class="profile">
-        <img src="profile.jpg" alt="error image" class="animate__animated
-          animate__pulse animate__infinite" />
-        <p class="animate__animated animate__fadeInDownBig">~̸̦̼̹̭̬͎̇̑̽̊̒͒͒͗ͅḴ̷̙̞̳́Y̷͎̦̜̠̟̾̐H̶͎̃͜Ä̴͎̹͔̼͈̙͎̪̝́̂̈̑̈́͜Ņ̴͉̥͑̐͒̔̅͌̃́̔-̷̧̭͍̰͎̔̊̽W̴̢̧̢̝̹̮̞̥̜̩͂̂͛̎̉̈́͗̑Ē̸̛͈̲̣̞̟̗̱͂̂̈́̿͛́͘͜͝ͅͅḂ̵̨̮̦̞͑̾͛S̶̢̗̯͙̆̈́͝ͅÌ̵̧̡̺̠̳̼͕̺͈̯͗͆̃͒̕͝͝T̷͔͙̤͓̔͛̓̂̽͠È̸̡̢͙̭͈̲̻̀~̵̡̭̠̠͈̬̊̄̋</p>
-      </div>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WEBSITE AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <video id="backgroundVideo" class="background-video" autoplay loop playsinline preload="auto" aria-hidden="true">
+    <source src="background.mp4" type="video/mp4" />
+  </video>
+  <div class="background-overlay" aria-hidden="true"></div>
 
-      <!-- link tree button -->
-      <div class="link">
-        <a href="https://www.instagram.com/story.imboshu?igsh=a2xpZDh3eXVsMGR5" target="_blank"
-          class="animate__animated animate__bounceInLeft">~̾I̾N̾S̾T̾A̾G̾R̾A̾M̾~̾</a>
-        <a href="https://tiktok.com/@storyimboshuyhan48" target="_blank" class="animate__animated
-          animate__bounceInLeft animate__delay-2s">≋~≋T≋I≋K≋T≋O≋K≋~≋</a>
-        <a href="https://wa.me/qr/ND4RTPQK2KEBJ1" target="_blank"
-          class="animate__animated animate__bounceInLeft animate__delay-3s">~͓̽W͓̽H͓̽A͓̽T͓̽S͓̽A͓̽P͓̽P͓̽~͓̽</a>
-      </div>
-      <div class="footer animate__animated animate__bounceInUp
-        animate__delay-4s">
-          <h1>(¯´•._.• ~𝒷𝒶ήţ𝓊 𝓼υⓅ𝔭σʳⓣs ＮⓎค ҜΔＫ~ •._.•´¯)</h1>
-          <i></i>
-      </div>
-    </div>
+  <main class="container">
+    <header class="profile">
+      <img src="profile.jpg" alt="Foto profil Kyhan" />
+      <h1>WEBSITE AI</h1>
+      <p>Temukan AI terbaik di sini ✨</p>
+    </header>
+
+    <nav class="links" aria-label="Daftar layanan AI">
+      <a href="https://app.roboflow.com/" target="_blank" rel="noopener noreferrer">
+        <span class="link-content"><i class="fa-solid fa-eye" aria-hidden="true"></i><span>Roboflow</span></span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">
+        <span class="link-content"><i class="fa-solid fa-robot" aria-hidden="true"></i><span>ChatGPT</span></span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">
+        <span class="link-content"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i><span>Google Gemini</span></span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a href="https://chat.qwen.ai/" target="_blank" rel="noopener noreferrer">
+        <span class="link-content"><i class="fa-solid fa-brain" aria-hidden="true"></i><span>Qwen AI</span></span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a href="https://chatgpt.com/c/6aeecef1-7300-83ec-b000-eae06c9e833b" target="_blank" rel="noopener noreferrer">
+        <span class="link-content"><i class="fa-solid fa-comments" aria-hidden="true"></i><span>ChatGPT Chat</span></span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a href="https://www.dola.com/" target="_blank" rel="noopener noreferrer">
+        <span class="link-content"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i><span>Dola AI</span></span>
+        <span class="link-arrow" aria-hidden="true">↗</span>
+      </a>
+    </nav>
+
+    <button id="soundButton" class="sound-button" type="button" hidden>
+      <i class="fa-solid fa-volume-high" aria-hidden="true"></i>
+      Nyalakan Suara Video
+    </button>
+
+    <footer class="footer"><p>Website AI terbaik 💜</p></footer>
+  </main>
+
+  <script>
+    const video = document.getElementById("backgroundVideo");
+    const soundButton = document.getElementById("soundButton");
+
+    async function startVideo() {
+      try {
+        video.muted = false;
+        await video.play();
+        soundButton.hidden = true;
+      } catch (error) {
+        video.muted = true;
+        soundButton.hidden = false;
+        try {
+          await video.play();
+        } catch (mutedError) {
+          soundButton.innerHTML =
+            '<i class="fa-solid fa-play" aria-hidden="true"></i> Putar Video & Suara';
+        }
+      }
+    }
+
+    soundButton.addEventListener("click", async () => {
+      try {
+        video.muted = false;
+        await video.play();
+        soundButton.hidden = true;
+      } catch (error) {
+        video.muted = true;
+        soundButton.hidden = false;
+      }
+    });
+
+    startVideo();
+  </script>
+</body>
 </html>
